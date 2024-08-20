@@ -1,0 +1,302 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+:root{
+    --primary_color: rgb(106, 3, 116);
+    --secondary_color: rgb(178, 9, 194);
+}
+#nav{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    align-items: center;
+    height: 5rem;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0rem 0rem 1rem rgb(206, 206, 206);
+}
+#nav img{
+    width: 2rem;
+}
+#nav a{
+    font-size: 1.9rem;
+    text-decoration: 0rem;
+}
+#nav .logo{
+    width: 7rem;
+    height: 7rem;
+    margin-left: 5rem;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96rem;
+    width: 100%;
+    background-image: url(nu/90e50fbb0a0388a55096c4177e973c61-mb-hero-lg-experiment.jpg);
+    background-size: cover;
+    gap: 2rem;
+}
+#header *{
+    color: white;
+    margin-left: 10rem;
+}
+#header h1{
+    font-size: 8rem;
+    width: 75rem;
+}
+#header p{
+    font-size: 2rem;
+    width: 50rem;
+    font-weight: 700;
+}
+#header a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.6rem 0rem;
+    width: 35rem;
+    background-color: var(--primary_color);
+    text-align: center;
+    border-radius: 5rem;
+}
+#header .background{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+#main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#main .phone_img img{
+    width: 13rem;
+    border-radius: 5rem;
+}
+#main .phone_img {
+margin-top: 5rem;
+}
+#main .phone{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 10rem;
+}
+#main .phone_color{
+    color: var(--secondary_color);
+}
+#main .nucard{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 15rem;
+}
+#main .text_nucard{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    font-size: 2.7rem;
+    color: var(--primary_color);
+}
+#main .text_nucard a{
+    text-decoration: none;
+    color: var(--secondary_color);
+}
+#main .people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+#main .people h1{
+    font-size: 55rem;
+    color: var(--primary_color);
+}
+#main .people {
+    color: var(--secondary_color);
+    font-size: 6rem;
+    font-weight: 700;
+    position: relative;
+    top: -3rem;
+}
+#main .people_color{
+    color: black
+}
+#main .nu_logo{
+    display: flex;
+    width: 5rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10rem;
+}
+#main .logo{
+    width:14rem;
+}
+#main .security{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(nu/4c3cdc65cc7040e5a0001ca5f0aa55dc-security-lg.jpg);
+    background-repeat:no-repeat ;
+    height: 66.1rem;
+    width: 111.7rem;
+    background-position: center;
+    background-size: 92.6rem;
+}
+#main .security_card{
+    display: flex;
+    flex-direction: column;
+    width: 54.2rem;
+    height: 38.9rem;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2rem;
+    position: relative;
+    top: 23rem;
+}
+#main .security_card img{
+    width: 12rem;
+    position: relative;
+    top: -5rem;
+}
+#main .security_card h1{
+    font-size: 4rem;
+}
+#main .security_card p{
+    font-size: 2rem;
+    width: 45rem;
+    margin-top: 3rem;
+}
+#main .security_card a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    font-weight: 700;
+    color: var(--secondary_color);
+}
+#main .revolution{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.4rem;
+    width: 76rem;
+    text-align: center;
+    gap: 10rem;
+}
+#main .nu_options{
+    display: flex;
+    margin-top: 25rem;
+    gap:1rem;
+}
+#main .revolution_img{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+#main .revolution_img img{
+    width: 16rem;
+}
+#main .nu_option ,#main .nu_option_special{
+    display: flex;
+    background-color: rgba(238, 238, 238, 0.336);
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+#main .nu_option_special{
+    width: 27.8rem;
+    height: 14.3rem;
+}
+#main .nu_option_special h1{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+top: -4rem;
+}
+#main .nu_option_special img{
+position: relative;
+top: -5rem;
+}
+#main .nu_option{
+    width: 27.7rem;
+    height: 14.3rem;
+}
+#main .nu_option img{
+    width: 3rem;
+    height: 3rem;
+}
+#main .nu_option h1{
+font-size: 2rem;
+}
+#main .nu_option a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--secondary_color);
+    }
+#main .questions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-top: 15rem;
+    padding: 10rem 5rem;
+    gap: 5rem;
+}
+#main .questions h1{
+    font-size: 5rem;
+}
+#main .questions h2{
+    font-size: 2.1rem;
+    margin-top: 1rem;
+}
+#main .questions p{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+}
+#main .questions a{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary_color);
+}
+#main .question{
+    border-top: 0.3rem solid black;
+}
+#footer{
+    background-color: rgb(12, 3, 20);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+#footer img{
+    width: 10rem;
+}
